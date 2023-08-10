@@ -1,0 +1,12 @@
+@base             <https://entropyorg.github.io/> .
+@prefix :         <https://entropyorg.github.io/> .
+@prefix entropy:  <https://entropyorg.github.io/> .
+
+@prefix doap:             <http://usefulinc.com/ns/doap#> .
+@prefix metacpan-dist:    <https://metacpan.org/dist/> .
+
+<project/pdl> a <doap:Project> ;
+	<doap:name> "Perl Data Language" ;
+        <doap:shortname> "PDL" ;
+	<doap:download-page> <metacpan-dist:PDL> ;
+	<doap:homepage> <https://pdl.perl.org/>.
